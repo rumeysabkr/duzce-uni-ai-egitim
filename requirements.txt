@@ -1,0 +1,11 @@
+# Arayüz (Hugging Face Spaces README.md içindeki sdk_version ile aynı olmalı)
+gradio==6.31.0
+
+# OpenAI API: sohbet modeli (gpt-5.6-luna) ve embedding modeli (text-embedding-3-small)
+openai==3.42.1
+
+# RAG: vektörler arası benzerlik hesabı
+numpy==2.5.4
+
+# Lokal geliştirme: API anahtarını .env dosyasından okumak için
+python-dotenv==1.2.4

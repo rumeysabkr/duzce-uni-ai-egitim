@@ -1,0 +1,34 @@
+# Gizli bilgiler (API anahtarları vb.)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Sanal ortamlar
+.venv/
+venv/
+env/
+
+# Gradio / Hugging Face
+.gradio/
+flagged/
+
+# Editör ve işletim sistemi dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Loglar
+*.log
